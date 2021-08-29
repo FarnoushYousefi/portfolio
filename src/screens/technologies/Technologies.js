@@ -1,6 +1,6 @@
 import React from 'react';
 import DevIcon from 'devicon-react-svg';
-import technologies from './technologies.css'
+import technologies from './technologies.css';
 import { techs } from '../../helpers/techs';
 function Technologies() {
   return (
@@ -14,8 +14,10 @@ function Technologies() {
         {techs.map((e, idx) => {
           return (
             <div key={idx} className="tech__card">
-              (<DevIcon className="tech__icons" icon={e.iconName} />)
-              <span style={{margin:'5px', fontSize:'1.5rem'}}>{e.name}</span>
+              {/* (<DevIcon className="tech__icons" icon={e.iconName} />) */}
+              <span style={{ margin: '5px', fontSize: '1.5rem' }}>
+                {e.name}
+              </span>
             </div>
           );
         })}

@@ -1,14 +1,16 @@
 import React from 'react'
 import './navigation.css'
+import {Link} from 'react-router-dom'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import {navigationLinks} from '../../helpers/navigationLinks'
+import reactRouterDom from 'react-router-dom'
 
 function createLinks(){
     return navigationLinks.map((e,idx)=>
-    <Nav.Link KEY={idx} href={e.ref}>
+    <Link key={idx} to={e.ref} >
         {e.name}
-    </Nav.Link>
+    </Link>
     )
 }
 function NavigationBar() {
