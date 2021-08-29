@@ -14,10 +14,13 @@ function createLinks(){
 function NavigationBar() {
     return (
         <div id="home">
-            <Navbar className="navigation_container" expand = "md">
+            <Navbar className="navigation_container"
+            style={{zIndex:'2', position:'fixed', width:'100%', top: '0'}} 
+            collapseOnSelect
+            expand = "md">
             <Navbar.Brand style={{marginLeft:'1rem'}} href="#home">Farnoush Yousefi</Navbar.Brand> 
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse style ={{justifyContent:'flex-end', marginRight:'1rem',borderColor:'none'}}>
+            <Navbar.Collapse style ={{justifyContent:'flex-end', marginRight:'1rem', borderColor:'none'}}>
              <Nav className="links" style={{margin:'0 1rem'}}>
              {createLinks()}
              </Nav>
