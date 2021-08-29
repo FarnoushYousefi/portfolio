@@ -1,8 +1,9 @@
 import React from 'react';
 import Typed from 'react-typed';
+import './header.css'
 function Header() {
   return (
-    <div>
+    <div className='mainInfo'>
       <h1>What am I</h1>
       <Typed
         strings={[
