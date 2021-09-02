@@ -12,8 +12,8 @@ export const navigationLinks=[
         ref:'#technologies'
     },
     {
-        name:'PORFOLIO',
-        ref:'#porfolio'
+        name: 'PORTFOLIO',
+        ref: '#portfolio'
     },
     {
         name:'CONTACT',

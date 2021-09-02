@@ -6,9 +6,9 @@ import {navigationLinks} from '../../helpers/navigationLinks'
 
 function createLinks(){
     return navigationLinks.map((e,idx)=>
-    <Nav.Link KEY={idx} href={e.ref}>
-        {e.name}
-    </Nav.Link>
+    <Nav.Link key={ idx } href={ e.ref }>
+       { e.name }
+   </Nav.Link>
     )
 }
 function NavigationBar() {

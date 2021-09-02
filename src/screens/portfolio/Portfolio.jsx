@@ -8,6 +8,7 @@ import Image from 'react-bootstrap/Image'
 import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button'
  
+console.log('portfolioData',portfolioData)
 function Portfolio() {
   const [modalShow, setModalShow] = useState(false);
   const [tempData, setTempData] = useState({})
@@ -42,9 +43,11 @@ function Portfolio() {
   }
  
   const mapped = portfolioData.map((e, idx) => {
+    console.log('texttttttttt',e,idx);
     return (
       <Card key={idx} id="portfolio__card__container">
-        <Image className="portfolio__image" onClick={(a) => {
+        <Image className="portfolio__image"
+         onClick={(a) => {
           setTempData({
             image: e.image,
             link: e.link,

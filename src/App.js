@@ -25,6 +25,7 @@ function App() {
           {/* <AboutMe />
           <Technologies />
          <Portfolio/> */}
+         <Portfolio/>
         </Route>
         <Route exact path="/technologies">
           <Technologies />

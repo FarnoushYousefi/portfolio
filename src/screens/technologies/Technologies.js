@@ -14,7 +14,7 @@ function Technologies() {
         {techs.map((e, idx) => {
           return (
             <div key={idx} className="tech__card">
-              (<DevIcon className="tech__icons" icon={e.iconName} />)
+              {/* (<DevIcon className="tech__icons" icon={e.iconName} />) */}
               <span style={{margin:'5px', fontSize:'1.5rem'}}>{e.name}</span>
             </div>
           );
