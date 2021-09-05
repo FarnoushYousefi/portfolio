@@ -2,6 +2,7 @@ import quiz from '../images/projectsicon/quize.gif'
 import weather_dashboard from '../images/projectsicon/weather_dashboard.gif'
 import work_day from '../images/projectsicon/Work_Day_Scheduler.gif'
 import survey_dashboard from '../images/projectsicon/Covid_Dashboard.gif'
+import Tech_Blog from '../images/projectsicon/Tech_Blog.gif'
 
 const portfolioData = [
   {
@@ -32,6 +33,14 @@ const portfolioData = [
     summary: 'This repository contains a Dashborard that shows you the a variaty of information combined in one place for when things re-open in Canada',
     tech: 'HTML| Javascript |CSS'
   },
+{
+  image: Tech_Blog,
+  link:'https://techblog-sequelize.herokuapp.com/',
+  desc: 'Tech_Blog',
+  summary: 'AS A developer who writes about tech I WANT a CMS-style blog sit SO THAT I can publish articles, blog posts, and my thoughts and opinions',
+  tech:'Handlebars|Node.js|Sequelize|MySQL2|Express-session'
+}
+
 ];
 
 export default portfolioData;
