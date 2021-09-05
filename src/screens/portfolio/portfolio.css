@@ -7,11 +7,26 @@
     text-align: center;
     margin-top: 3rem;
   }
-  
+
+   .portfolio__main__container{
+    /* margin:1rem 0; */
+    /* display:flex; */
+    flex-direction: row;
+    margin: 2rem 18rem;
+    justify-content:center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+  }  
+
+
   #portfolio__card__container {
     width: 50%;
     padding: 10px;
     border: none;
+    margin-bottom: 20px;
+    /* margin:auto */
+   
   }
   
   .portfolio__image:hover {
@@ -43,6 +58,7 @@
   #portfolio__modal__link:link {
     text-decoration: none;
   }
+ 
   
   @media only screen and (max-width: 600px){
       #portfolio__card__container {

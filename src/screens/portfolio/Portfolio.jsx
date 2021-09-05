@@ -33,6 +33,7 @@ function Portfolio() {
         </Modal.Body>
          {/* make sure to add rel="noreferrer" for netlify upload */}
           <a id="portfolio__modal__link" href={data.link} target="_blank" rel="noreferrer">Go to site</a>
+         <a href={data.GitHub}> <i class="fab fa-github" style={{ color: 'black',fontSize:'30px' , padding:'1rem'}}  target="_blank"></i>Go to GitHub Link</a>
         <Modal.Footer>
           <div>Technologies used: </div>
           <p style={{ fontSize: '0.7rem', marginRight: 'auto' }}>{data.tech}</p>
@@ -53,7 +54,8 @@ function Portfolio() {
             link: e.link,
             desc: e.desc,
             summary: e.summary,
-            tech: e.tech
+            tech: e.tech,
+            GitHub:e.GitHub
           })
           setModalShow(true)
         }}
@@ -67,11 +69,11 @@ function Portfolio() {
   return (
     <div className="portfolio__main__container" id="portfolio">
       <h1>PORTFOLIO</h1>
-      <p>
-        This is my Github page
-        <a href="https://github.com/Juan321654" target="_blank" rel="noreferrer"> https://github.com/FarnoushYousefi</a>
+      <p style={{color:'white',fontSize:'30px'}}>
+        This is my Github page: 
+        <a href="https://github.com/Juan321654" target="_blank" rel="noreferrer" style={{color:'white',fontSize:'20px'}}> https://github.com/FarnoushYousefi</a>
       </p>
-      <Container fluid="lg" style={{ padding: '2rem 0' }}>
+      <Container fluid="lg" style={{ padding: '2rem 2rem' }}>
         <Row>
           {mapped}
         </Row>
