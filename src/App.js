@@ -31,7 +31,7 @@ function App() {
         <Route exact path="/about-me">
           <AboutMe />
         </Route>
-        <Route exact path="/portfolio">
+        <Route exact path="/myprofile">
           <Portfolio />
         </Route>
         <Route exact path="/contact">

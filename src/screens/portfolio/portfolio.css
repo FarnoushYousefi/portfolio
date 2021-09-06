@@ -21,10 +21,11 @@
 
 
   #portfolio__card__container {
-    width: 50%;
+    width: 40%;
     padding: 10px;
     border: none;
     margin-bottom: 20px;
+    margin-right: 20px;
     /* margin:auto */
    
   }
@@ -62,7 +63,7 @@
   
   @media only screen and (max-width: 600px){
       #portfolio__card__container {
-      width: 100%;
+      width: 50%;
       padding: 0.5rem 2.5rem;
       border: none;
     }

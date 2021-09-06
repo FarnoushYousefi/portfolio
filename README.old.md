@@ -14,4 +14,10 @@ Run npm run build to create a production build
 * Express.js
 * CSS3
 * VsCode
-* Vercel
+
+## Screenshot
+> ### Sample GIF of deployed application.
+![Final Output Of The Website!](./src/images/projectsicon/portfolio.gif "Final Output Of The Website")
+
+# Deployed Link
+ https://farnoushyousefi.github.io/portfolio/

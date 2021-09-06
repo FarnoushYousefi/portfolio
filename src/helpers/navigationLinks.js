@@ -13,7 +13,7 @@ export const navigationLinks=[
     },
     {
         name: 'PORTFOLIO',
-        ref: '#portfolio'
+        ref: '#myprofile'
     },
     {
         name:'CONTACT',
