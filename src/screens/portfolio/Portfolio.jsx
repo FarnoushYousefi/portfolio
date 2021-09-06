@@ -75,11 +75,13 @@ function Portfolio() {
         This is my Github page: 
         <a href="https://github.com/Juan321654" target="_blank" rel="noreferrer" style={{color:'white',fontSize:'20px'}}> https://github.com/FarnoushYousefi</a>
       </p>
+      <div>
       <Container  fluid="lg" style={{ padding: '2rem 2rem' }}>
         <Row>
         {mapped}
         </Row>
       </Container>
+    </div>
     </div>
   );
 }
