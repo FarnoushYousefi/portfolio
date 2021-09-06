@@ -12,11 +12,12 @@ function Technologies() {
       </div>
       <div className="tech__cards__container">
         {techs.map((e, idx) => {
+          console.log(e)
           return (
             <div key={idx} className="tech__card">
               {/* (<DevIcon className="tech__icons" icon={e.iconName} />) */}
               
-              <span style={{margin:'5px', fontSize:'1.5rem'}}><i className="fab fa-{e.iconName}"></i>{e.name}</span>
+              <span style={{margin:'5px', fontSize:'1.5rem'}}><i className={"fab fa-"+ e.iconName}></i>{e.name}</span>
             </div>
           );
         })}
