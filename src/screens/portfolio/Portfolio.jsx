@@ -8,7 +8,7 @@ import Image from 'react-bootstrap/Image'
 import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button'
  
-console.log('portfolioData',portfolioData)
+console.log('portfolioData',portfolioData) 
 function Portfolio() {
   const [modalShow, setModalShow] = useState(false);
   const [tempData, setTempData] = useState({})
@@ -46,6 +46,7 @@ function Portfolio() {
   const mapped = portfolioData.map((e, idx) => {
     console.log('texttttttttt',e,idx);
     return (
+    
       <Card key={idx} id="portfolio__card__container">
         <Image className="portfolio__image"
          onClick={(a) => {
@@ -63,6 +64,7 @@ function Portfolio() {
         <div className="portfolio__click__info">&#x1F50E;&#xFE0E;</div>
         {createModal(tempData)}
       </Card>
+     
     )
   })
  
@@ -73,9 +75,9 @@ function Portfolio() {
         This is my Github page: 
         <a href="https://github.com/Juan321654" target="_blank" rel="noreferrer" style={{color:'white',fontSize:'20px'}}> https://github.com/FarnoushYousefi</a>
       </p>
-      <Container fluid="lg" style={{ padding: '2rem 2rem' }}>
+      <Container  fluid="lg" style={{ padding: '2rem 2rem' }}>
         <Row>
-          {mapped}
+        {mapped}
         </Row>
       </Container>
     </div>
