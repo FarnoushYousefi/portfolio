@@ -1,12 +1,13 @@
 .about__container{
- margin:3rem 0;
+ margin: 3rem 0;
  display:flex;
  flex-direction: row;
- justify-content:center;
+ justify-content:space-evenly;
  align-items: center;
  position: absolute;
  z-index: 1;
-
+ width:100% ;
+ padding-top: 5rem;
 }
 .about__container img{
     border-radius: 50%;
@@ -15,9 +16,10 @@
     /* display: flex;
     direction: row;
     justify-content: space-evenly */
-    /* max-width:100px;
-    max-height:100px;
-    object-fit: scale-down; */
+    max-width:500px;
+    max-height:500px;
+    width:100% ;
+    object-fit: scale-down;
 }
 
 .about__text{
@@ -29,7 +31,8 @@
 }
 .about__container #image{
    margin-top:'4rem';
-    margin-right: '4rem'
+   /* width:100% ;
+  margin-right: auto */
 }
 
 @media only screen and (max-width: 900px) {

@@ -77,7 +77,7 @@ function Portfolio() {
       </p>
       <div>
       <Container  fluid="lg" style={{ padding: '2rem 2rem' }}>
-        <Row>
+        <Row className='justify-content-center'>
         {mapped}
         </Row>
       </Container>

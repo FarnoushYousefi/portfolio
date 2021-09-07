@@ -1,12 +1,12 @@
 import React from 'react'
 import './aboutMe.css'
-import person from '../../images/person.png'
+import person from '../../images/new.jpg'
 
 function AboutMe() {
     return (
         <div className="about__container" id="about-me">
            <div id='image'>
-                 <img src={person} alt="person icon" style={{marginTop:'4rem',marginRight:'7rem',marginLeft:'2rem'}}  />
+                 <img src={person} alt="person icon"   />
            </div>
            <div className='about__text'>
                <h1>ABOUT ME</h1>

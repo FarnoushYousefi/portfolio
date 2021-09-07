@@ -21,6 +21,10 @@ function ContactMe() {
           {createLinks()}
         </div>
       </div>
+      <div class='link'>
+     <a href='https://github.com/FarnoushYousefi'> <i class="fab fa-github" style={{ color: 'black',fontSize:'30px' , padding:'1rem', margin:'0 auto'}}  target="_blank"></i></a>
+     <a href='https://www.linkedin.com/in/farnoushyousefi/'> <i class="fab fa-linkedin" style={{ color: 'white',fontSize:'30px' , padding:'1rem', margin:'0 auto'}}  target="_blank"></i></a>
+     </div>
       <div style={{ textAlign:'center'}}>Copyright&copy; {new Date().getFullYear()} All rights reserved</div>
     </div>
   )

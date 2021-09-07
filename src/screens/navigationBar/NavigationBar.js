@@ -13,7 +13,8 @@ function createLinks(){
 }
 function NavigationBar() {
     return (
-        <div id="home">
+        <>
+        {/* <div id="home"> */}
             <Navbar className="navigation_container"
             style={{zIndex:'2', position:'fixed', width:'100%', top: '0'}} 
             collapseOnSelect
@@ -27,7 +28,8 @@ function NavigationBar() {
           
             </Navbar.Collapse>
             </Navbar>
-        </div>
+        {/* </div> */}
+        </>
     )
 }
 
