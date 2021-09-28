@@ -5,8 +5,18 @@ import covidDashboard from '../images/projectsicon/Covid_Dashboard.gif'
 import Tech_Blog from '../images/projectsicon/Tech_Blog.gif'
 import surveyDonkey from '../images/projectsicon/surveayDonkey.gif'
 import Booklyst from '../images/projectsicon/Booklyst.gif'
+import Redux from '../images/projectsicon/redux.gif'
+
 
 const portfolioData = [
+  {
+    image: Redux,
+    link: 'https://ecomercialapp-with-redux.herokuapp.com/',
+    desc: 'The Application that we have created will help find the books you are searching for across multiple sites so that you can buy your book for the cheapest cost. You can search book using text or voice. An intuitive dashboard to track all your favourite and read books!',
+    summary: 'A simple ecommerce store that uses Redux for global state state management.',
+    tech: 'HTML| Javascript |CSS |graphQl|apolloServerExpress|bcrypt|mongoose|jsonwebtoken|redux|bootstrap|Node.js',
+    GitHub:'https://github.com/FarnoushYousefi/shop-shop'
+  },
   {
     image: Booklyst,
     link: 'https://booklyst-project.herokuapp.com',
