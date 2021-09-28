@@ -7,22 +7,31 @@ import surveyDonkey from '../images/projectsicon/surveayDonkey.gif'
 import Booklyst from '../images/projectsicon/Booklyst.gif'
 import Redux from '../images/projectsicon/redux.gif'
 import Zookeeper from '../images/projectsicon/Zookeeper.PNG'
+import booksearch from '../images/projectsicon/booksearch.gif'
 
 
 const portfolioData = [
   {
+    image: booksearch,
+    link: 'https://booksearch-engine-graphql.herokuapp.com',
+    desc: 'Google Books API search engine with GraphQL API',
+    summary: 'A fully functioning Google Books API search engine refactored with GraphQL API built with Apollo Server.',
+    tech: 'HTML| Javascript |CSS |graphQl|apolloServerExpress|bcrypt|mongoose|jsonwebtoken|redux|bootstrap|Node.js',
+    GitHub:'https://github.com/FarnoushYousefi/shop-shop'
+  },
+  {
     image: Redux,
     link: 'https://ecomercialapp-with-redux.herokuapp.com/',
-    desc: 'The Application that we have created will help find the books you are searching for across multiple sites so that you can buy your book for the cheapest cost. You can search book using text or voice. An intuitive dashboard to track all your favourite and read books!',
-    summary: 'A simple ecommerce store that uses Redux for global state state management.',
+    summary: 'The Application that we have created will help find the books you are searching for across multiple sites so that you can buy your book for the cheapest cost. You can search book using text or voice. An intuitive dashboard to track all your favourite and read books!',
+    desc: 'A simple ecommerce store that uses Redux for global state state management.',
     tech: 'HTML| Javascript |CSS |graphQl|apolloServerExpress|bcrypt|mongoose|jsonwebtoken|redux|bootstrap|Node.js',
     GitHub:'https://github.com/FarnoushYousefi/shop-shop'
   },
   {
     image: Booklyst,
     link: 'https://booklyst-project.herokuapp.com',
-    desc: 'The Application that we have created will help find the books you are searching for across multiple sites so that you can buy your book for the cheapest cost. You can search book using text or voice. An intuitive dashboard to track all your favourite and read books!',
-    summary: 'Web APIs Code Quize',
+    summary: 'The Application that we have created will help find the books you are searching for across multiple sites so that you can buy your book for the cheapest cost. You can search book using text or voice. An intuitive dashboard to track all your favourite and read books!',
+    desc: 'Web APIs Code Quize',
     tech: 'HTML| Javascript |CSS |graphQl|apolloServerExpress|bcrypt|mongoose|jsonwebtoken|redux|bootstrap',
     GitHub:'https://github.com/FarnoushYousefi/Code-Quiz-'
   },
@@ -37,8 +46,8 @@ const portfolioData = [
   {
     image: Zookeeper,
     link: 'https://secret-anchorage-53620.herokuapp.com/',
-    desc: 'Code Quiz API',
-    summary: 'Web APIs Code Quize',
+    summary: 'A web server using the Express.js framework and add it to a front-end application that the local zoo is developing, called Zoo Keepr. The site’s data will live on the server you build so that anyone can access it without having to download it.',
+    desc: 'Zookeeper BackEnd Project',
     tech: 'HTML| Javascript |CSS|Node.js',
     GitHub:'https://github.com/FarnoushYousefi/zookeepr'
   },
