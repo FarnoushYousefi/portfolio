@@ -79,7 +79,7 @@ const portfolioData = [
   image: Tech_Blog,
   link:'https://techblog-sequelize.herokuapp.com/',
   desc: 'Tech_Blog',
-  summary: 'AS A developer who writes about tech I WANT a CMS-style blog sit SO THAT I can publish articles, blog posts, and my thoughts and opinions',
+  summary: 'This is a tech blog that allows a user to post about whatever they wish. It supports account creation with secure password hashing and storage as well as the ability to login. Users can view all posts, or go to their dashboards to see the posts they have made. They can also comment on posts if they are logged in. If the user idles for too long they will be logged out of their accountAS A developer who writes about tech I WANT a CMS-style blog sit SO THAT I can publish articles, blog posts, and my thoughts and opinions',
   tech:'Handlebars|Node.js|Sequelize|MySQL2|Express-session|heroku',
   GitHub:'https://github.com/FarnoushYousefi/Tech-Blog-'
 },
