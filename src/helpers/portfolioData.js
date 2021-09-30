@@ -69,11 +69,11 @@ const portfolioData = [
   },
   {
     image: covidDashboard,
-    link: 'https://teamtoo222.github.io/Project-1-UofT/',
+    link: 'https://farnoushyousefi.github.io/Covid-dashboard/',
     desc: 'survey_dashboard',
     summary: 'This repository contains a Dashborard that shows you the a variaty of information combined in one place for when things re-open in Canada',
     tech: 'HTML| Javascript |CSS',
-    GitHub:'https://github.com/Teamtoo222/Project-1-UofT/tree/main'
+    GitHub:'https://github.com/FarnoushYousefi/Covid-dashboard'
   },
 {
   image: Tech_Blog,
