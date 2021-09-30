@@ -13,11 +13,11 @@ import booksearch from '../images/projectsicon/booksearch.gif'
 const portfolioData = [
   {
     image: booksearch,
-    link: 'https://booksearch-engine-graphql.herokuapp.com',
+    link: 'https://booksearch-engine-graphql.herokuapp.com/',
     desc: 'Google Books API search engine with GraphQL API',
-    summary: 'A fully functioning Google Books API search engine refactored with GraphQL API built with Apollo Server.',
+    summary: 'The Book search engine is an application is leveraging the entire MERN stack and with a React front end, MongoDB database, and Node.js/Express.js server and API. It is set up to allow users to save book searches to the back end. The application is built using Google Books API search engine build with GraphQL API and Apollo Server.',
     tech: 'HTML| Javascript |CSS |graphQl|apolloServerExpress|bcrypt|mongoose|jsonwebtoken|redux|bootstrap|Node.js',
-    GitHub:'https://github.com/FarnoushYousefi/shop-shop'
+    GitHub:'https://github.com/FarnoushYousefi/graphQlBook'
   },
   {
     image: Redux,
