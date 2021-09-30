@@ -22,7 +22,7 @@ const portfolioData = [
   {
     image: Redux,
     link: 'https://ecomercialapp-with-redux.herokuapp.com/',
-    summary: 'The Application that we have created will help find the books you are searching for across multiple sites so that you can buy your book for the cheapest cost. You can search book using text or voice. An intuitive dashboard to track all your favourite and read books!',
+    summary: 'Shop Shop is an e-commerce application that allows users to shop for various items, add these products to the shopping cart, manage the shopping cart by increasing and decreasing quantities, check out their purchases and see their order history. This application is built using Node.js, GraphQL, Apollo Server, MongoDB and it is using React for the front end and Redux for state management.',
     desc: 'A simple ecommerce store that uses Redux for global state state management.',
     tech: 'HTML| Javascript |CSS |graphQl|apolloServerExpress|bcrypt|mongoose|jsonwebtoken|redux|bootstrap|Node.js',
     GitHub:'https://github.com/FarnoushYousefi/shop-shop'
