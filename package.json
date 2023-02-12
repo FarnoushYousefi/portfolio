@@ -20,11 +20,7 @@
     "web-vitals": "^1.1.2",
     "name": "example-app",
     "description": "a really cool app",
-    "version": "1.0.0",
-    "engines": {
-      "node": "18.x",
-      "npm": "9.x"
-    }
+    "version": "1.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
