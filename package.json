@@ -22,7 +22,8 @@
     "description": "a really cool app",
     "version": "1.0.0",
     "engines": {
-      "node": "18.14.x"
+      "node": "18.x",
+      "npm": "7.x"
     }
   },
   "scripts": {
