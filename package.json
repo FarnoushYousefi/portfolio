@@ -1,6 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
+  "homepage": "https://gitname.github.io/react-gh-pages",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -17,8 +18,8 @@
     "react-typed": "^1.2.0",
     "web-vitals": "^1.1.2",
     "engines": {
-        "node": "14.16.0"
-      }
+      "node": "14.16.0"
+    }
   },
   "scripts": {
     "start": "react-scripts start",
@@ -43,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
