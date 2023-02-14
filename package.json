@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
+  "homepage": "https://farnoushyousefi.github.io/portfolio",
   "version": "0.1.0",
-  "homepage": "https://farnoushyousefi.github.io/react-gh-pages",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -16,10 +16,7 @@
     "react-router-dom": "^5.2.1",
     "react-scripts": "4.0.3",
     "react-typed": "^1.2.0",
-    "web-vitals": "^1.1.2",
-    "engines": {
-      "node": "14.16.0"
-    }
+    "web-vitals": "^1.1.2"
   },
   "scripts": {
     "predeploy": "npm run build",
